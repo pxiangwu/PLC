@@ -1,4 +1,4 @@
-## Learning with Feature Dependent Label Noise: A Progressive Approach (ICLR 2021, spotlight) [Paper](https://openreview.net/pdf?id=ZPa2SyGcbwh)
+## Learning with Feature-Dependent Label Noise: A Progressive Approach (ICLR 2021, spotlight) [Paper](https://openreview.net/pdf?id=ZPa2SyGcbwh)
 
 ![](https://github.com/pxiangwu/PLC/blob/master/teaser.png)
 
@@ -15,7 +15,7 @@
 ## Reference
 ```
 @inproceedings{prog_noise_iclr2021,
-  title={Learning with Feature Dependent Label Noise: A Progressive Approach},
+  title={Learning with Feature-Dependent Label Noise: A Progressive Approach},
   author={Zhang, Yikai and Zheng, Songzhu and Wu, Pengxiang and Goswami, Mayank and Chen, Chao},
   booktitle={ICLR},
   year={2021}
