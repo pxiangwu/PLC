@@ -312,7 +312,7 @@ def lrt_correction(y_tilde, f_x, current_delta=0.3, delta_increment=0.1):
 
     if corrected_count < 0.001*n:
         current_delta += delta_increment
-        current_delta = max(current_delta, 0.9)
+        current_delta = min(current_delta, 0.9)
         cprint("Update Critical Value -> {}".format(current_delta), "red")
 
     return y_noise, current_delta
